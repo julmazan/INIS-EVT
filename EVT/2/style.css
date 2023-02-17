@@ -1,0 +1,12 @@
+body {
+    color:rgb(33, 33, 149);
+    font-family:  Arial, sans-serif;
+    }
+
+    h1 {
+        font-weight: bold; 
+    }
+
+.left {
+    float: right;
+}

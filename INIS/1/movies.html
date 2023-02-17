@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head><title>movies</title></head>
+    <body>
+        <script>
+            const numberOfFilms=prompt("Сколько фильмов вы посмотрели?", " ")
+            const personalMovieDB={
+                count:numberOfFilms,
+                movies:{}
+            };
+            for (let i=0; i<2;i++)
+            {
+                const a=prompt("Введите название одного из просмотренных фильмов", " ")
+                const b=prompt("Оцените фильм", " ")
+                if (a!=null && a!=" ")
+                {
+                    personalMovieDB.movies[a]=b
+                }
+                else
+                {
+                    alarm("Введите текст")
+                    i--
+                };
+            }
+            console.log(personalMovieDB)
+        </script>
+    </body>
+</html>
