@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shop</title>
+        <!-- <link rel="stylesheet" href="./libs/easepick/easpick.min.css"> -->
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/media.css" />
+
+        <link rel="stylesheet" href="./libs/autoComplete/css/autoComplete.01.css">
+        <link rel="stylesheet" href="./libs/custom-select/custom-select.css">
+</head>
+<body>
+
+        <div class="container container--header">
+
+            <nav class="nav">
+                <a href="#!" class="logo">
+                    <img src="./img/logo/logo.svg" alt="ceramics" />
+                </a>
+
+                <ul class="nav-list">
+                    <li class="nav-list__item">
+                        <a
+                            href="#"
+                            class="nav-list__link nav-list__link--active"
+                            >Home</a
+                        >
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="#" class="nav-list__link">About us</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="#" class="nav-list__link">Location</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="#" class="nav-list__link">Contacts</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="#" class="nav-list__link">Reviews</a>
+                    </li>
+                </ul>
+
+                <div class="nav__user">
+                    <div class="user">
+                        <div class="user__content">
+                            <span class="user__greeting">Hi,</span>
+                            <span class="user__name">Julia</span>
+                        </div>
+                        <div class="user__avatar">
+                            <img class="user__img" src="./img/header/user.jpg" alt="Avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <button class="mobile-nav-btn">
+                    <div class="nav-icon"></div>
+                </button>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="mobile-nav-fade"></div>
+    <div class="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#" >About us</a></li>
+            <li><a href="#" >Location</a></li>
+            <li><a href="#" >Contacts</a></li>
+            <li><a href="#" >Reviews</a></li>
+        </ul>
+    </div>
+
+    <main class="main">
+
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="title-1">Catalog</h2>
+                    <a href="#!" class="button-more">
+                        View all
+                        <img src="./img/icons/arrow-more.svg" alt="Arrow">
+                    </a>
+                </div>
+                <div class="section__cards section__cards--4-in-row">
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/01.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Double Walled Ceramic Travel Mug with Lid</h3>
+
+                        <footer class="card__footer">
+                            <a>Cotton White  - 20.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/02.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Double Walled Ceramic Travel Mug with Lid</h3>
+
+                        <footer class="card__footer">
+                            <a>Nightwaves - 20.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/03.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Double Walled Ceramic Travel Mug with Lid</h3>
+
+                        <footer class="card__footer">
+                            <a>Seafoam Green - 20.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/04.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Double Walled Ceramic Travel Mug with Lid </h3>
+
+                        <footer class="card__footer">
+                            <a>Pink Salt - 19.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section__cards section__cards--4-in-row">
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/05.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Dinner Plates - 10 in</h3>
+
+                        <footer class="card__footer">
+                            <a>Vanilla White - 49.99$ </a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/06.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Dessert Plates - 7.8 in</h3>
+
+                        <footer class="card__footer">
+                            <a>Earl Grey - 35.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/07.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Dessert Plates - 8 in</h3>
+
+                        <footer class="card__footer">
+                            <a>Assorted Neutrals - 39.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/08.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Dessert Plates - 8 in</h3>
+
+                        <footer class="card__footer">
+                            <a>Earl Grey - 39.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section__cards section__cards--4-in-row">
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/09.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Small Dessert Bowls - 16oz</h3>
+
+                        <footer class="card__footer">
+                            <a>Assorted Colors - 29.99$ </a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/10.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Small Dessert Bowls - 16oz</h3>
+
+                        <footer class="card__footer">
+                            <a>Vanilla White - 29.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/11.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Shallow Pie Pan Set of 2 - 9in</h3>
+
+                        <footer class="card__footer">
+                            <a>Vanilla White - 32.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/12.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Baking Pan Set of 2 - 7x11 in & Loaf Pan</h3>
+
+                        <footer class="card__footer">
+                            <a>Earl Grey - 32.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section__cards section__cards--4-in-row">
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/13.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Tart Pan - 10in</h3>
+
+                        <footer class="card__footer">
+                            <a>Chai - $21.99 - Sold Out</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/14.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Large Mixing Bowls Set of 2 - 5.5 & 3.6</h3>
+
+                        <footer class="card__footer">
+                            <a>Vanilla White - 42.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/15.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Latte Mug Set of 4</h3>
+
+                        <footer class="card__footer">
+                            <a>Earl Grey - 32.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="card">
+                        <a href="#!" class="card__link"></a>
+                        <img class="card__img card__img--hotel" src="./img/catalog/16.jpg" alt="Img">
+                        <h3 class="card__title card__title--hotel">Cappuccino Mugs with Saucers Set of 4 - 8oz</h3>
+
+                        <footer class="card__footer">
+                            <a>Assorted Neutrals - 34.99$</a>
+                            <div class="card__rating">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star-line.svg" alt="">
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+    
+        <section class="section">
+            <div class="container">
+
+</body>
+</html>
